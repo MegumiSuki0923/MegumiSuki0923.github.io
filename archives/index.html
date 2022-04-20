@@ -194,6 +194,39 @@
           
           
           <li>
+            <a href="/about/">
+              
+              关于
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archive/">
+              
+              归档
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/categories/">
+              
+              分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
             <a href="/tags/">
               
               标签
@@ -410,6 +443,17 @@
             </a>
           </li>
           
+          <li>
+            04-21
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            <a href="/en/hello-world/" style="color: #0085a1">
+              <span>
+                hello world
+                
+              </span>
+            </a>
+          </li>
+          
         </ul>
       </div>
       
@@ -454,7 +498,7 @@
   <div class="tags">
     
     
-    <a href="/tags/#hello world" title="hello world" rel="1">hello world</a>
+    <a href="/tags/#hello world" title="hello world" rel="2">hello world</a>
     
     
   </div>
@@ -504,6 +548,10 @@
 <div class="widget">
   <ul>
     
+    <a href="../en/hello-world/">
+      <li>hello world</li>
+    </a>
+    
     <a href="../cn/hello-world/">
       <li>hello world</li>
     </a>
@@ -523,7 +571,7 @@
 
 <h5><a href="/archives/">archives</a></h5>
 <div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="2022/04/">April 2022</a><span class="archive-list-count">1</span></li></ul>
+  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="2022/04/">April 2022</a><span class="archive-list-count">2</span></li></ul>
 </div>
 
 
@@ -1005,5 +1053,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
